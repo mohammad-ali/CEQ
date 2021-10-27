@@ -10,7 +10,8 @@ declare var $: any;
 export class AppComponent implements OnInit {
   ngOnInit() {
     $(document).ready(function () {
-      alert('sss');
+      $('.carousel').carousel();
+      $('.tabs').tabs();
     });
   }
 }
