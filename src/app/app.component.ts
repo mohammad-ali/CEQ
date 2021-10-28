@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
     $(document).ready(function () {
       $('.carousel').carousel();
       $('.tabs').tabs();
+      $('.collapsible').collapsible();
     });
   }
 }
