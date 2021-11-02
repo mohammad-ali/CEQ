@@ -2,6 +2,13 @@
 
 @import "materialize-css/dist/css/materialize.css";
 
+
+body{
+  
+  overflow-x: hidden !important;
+}
+
+
 .row {
   padding: 0 !important;
 }
