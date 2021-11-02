@@ -128,7 +128,7 @@
 }
 
 .span_pad{
-  padding: 10px;
+  padding: 10px !important;
 }
 .bg-darky{
   background-color: #b79e4c !important;
