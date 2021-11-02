@@ -4,11 +4,18 @@
 
 
 body{
-  
+
   overflow-x: hidden !important;
 }
 
 
 .row {
   padding: 0 !important;
+}
+
+label
+{
+  font-size: 1.3rem !important;
+  color: #0d1113 !important;
+  font-weight: 600;
 }
