@@ -178,7 +178,7 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
-    background-color: #f3971c;
+   
 }
 
 .rout2{
@@ -319,6 +319,17 @@ width: 100%;
 }
 .m-l{
   margin-left: 50px !important;
+}
+
+
+.costum-inp{
+  background-color: white !important;
+  border-radius:30px !important ;
+  padding-left: 15px !important; 
+}
+
+.btm-sub{
+  
 }
 /* contact us section End */
 /* footer section start  */
