@@ -2,6 +2,21 @@
 
 @import "materialize-css/dist/css/materialize.css";
 
+
+body{
+
+  overflow-x: hidden !important;
+}
+
+
 .row {
   padding: 0 !important;
+  margin: 0px !important;
+}
+
+label
+{
+  font-size: 1.3rem !important;
+  color: #0d1113 !important;
+  font-weight: 600;
 }

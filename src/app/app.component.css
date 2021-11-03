@@ -76,7 +76,7 @@
 
 
 .bg-dark{
-  background-color: rgb(28, 28, 28);
+  background-color: #f3971c !important;
   height: 400px;
   margin: 0 !important;
 }
@@ -87,11 +87,11 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
-    background-color: #c4c4c4;
+    background-color: #000000;
 }
 .style-caro{
 
-  background-color: #F6B900;
+  background-color: #000000;
   color:rgb(255, 255, 255);
   font-weight: 500;
   border-radius: 20px;
@@ -118,7 +118,7 @@
 .h1-cos{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: #990500 !important;
 }
 
 .rout{
@@ -127,13 +127,24 @@
 
 }
 
+.span_pad{
+  padding: 10px !important;
+}
+.bg-darky{
+  background-color: #b79e4c !important;
+}
 .h1-cos2{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
   font-weight: 700;
   text-transform: capitalize;
   margin-top: 162px;
-  color: rgb(0, 0, 0) !important;
+  color: #ffffff !important;
 
+}
+.card{
+  background-color: #050505 !important;
+    color: white !important;
+    font-weight: 600;
 }
 
 .btn-cos{
@@ -153,20 +164,21 @@
 /* EDITS SECTION START  */
 .bg-w{
   background-color:#F6B900;
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
   height: 400px;
+
 }
 
 .bg-ww{
 
     margin-top: 10px !important;
     height: 350px;
-
-
+    margin-top: 24px !important;
+    float: right;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
-    background-color: #e9e9e9;
+    background-color: #f3971c;
 }
 
 .rout2{
@@ -175,13 +187,17 @@
   margin-top: 240px;
 
 }
-
+.overF::-webkit-scrollbar {
+  display: none;
+}
 .overF{
  background-color: transparent;
-
+ overflow-style: none !important;
+ scrollbar-width: none !important;
+ overflow-anchor: none !important;
   overflow: scroll !important;
 
-
+    /* IE and Edge */
   height: 93%;
 }
 
@@ -206,7 +222,7 @@
 
 /* service section start  */
 .padding{
-  padding: 0px 135px !important;
+  padding: 0px 0px 0px 200px !important;
 }
 
 .service-logos{
@@ -229,7 +245,7 @@ margin-right: 45px !important;
 
 .col-bg{
   background-color: #C6C6C6;
-
+  height: 65px !important;
   color: #000;
   border-radius: 35px;
 }
@@ -244,17 +260,24 @@ width: 100%;
   border-radius: 35px !important;
 }
 
+.orange{
+  color:#F6B900 !important;
+  background-color: transparent !important;
+  font-size: 22px;
+  font-weight: 600 !important;
+}
+
 /* service section End  */
 
 /* Teams section start  */
 .bg-teams{
   background: url("/assets/images/Teams/bg_teams.svg") ;
   background-size: cover;
-  border-bottom-right-radius: 195px;
-  border-top-right-radius: 195px;
+  border-bottom-right-radius: 225px;
+  border-top-right-radius: 225px;
 
   width: 100%;
-  height: 600px;
+  height: 400px;
 }
 
 .overF-h{
@@ -263,17 +286,78 @@ width: 100%;
   flex-direction: row !important;
 }
 
-.f{
-  
-}
+
+
+
 /* Teams section End  */
 
+/* contact us section start */
+.h1-cos-3{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 700;
+  text-transform: capitalize;
+ 
+  color: #707070 !important;
+}
 
+.bg-g{
+  background-color:#dedede ;
+  border-radius: 5%;
+  width: 90%;
+  height: 300px;
+  margin-top: 20px;
+  padding: 15px;
+  color: white !important;
+  
+}
+
+.cost-lb{
+  font-weight: 100;
+  color: #595959;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small !important;
+}
+.m-l{
+  margin-left: 50px !important;
+}
+/* contact us section End */
+/* footer section start  */
+
+
+
+
+.f-bg{
+  background-image: url("/assets/images/footer/wave.svg") ;
+  background-size: cover;
+  background-position: center center;
+}
+
+.margin-t{
+  margin-top: 300px;
+}
+
+.p-b{
+  padding-bottom: 30px !important;
+}
+
+
+.p-l{
+  padding-left: 15px !important;
+}
+
+.text-o{
+  color: #F6B900;
+}
+
+.m-t-link{
+  margin-top: 120px !important;
+}
+/* footer section End  */
 
 /* ********** index csss start ********** */
 
 /* responsive design here */
-@media only screen and (min-width: 320px) and (max-width: 500px) {
+@media only screen and (min-width: 280px) and (max-width: 924px) {
  /* heder background start */
 #backheader{
   display: none !important;
@@ -345,7 +429,7 @@ width: 56px !important;
   height: 580px;
 }
 .bg-gray{
-  width: 100% !important;;
+  width: 100% !important;
   height: 80px;
 
 }
@@ -359,10 +443,12 @@ width: 56px !important;
 
 }
 
+
+
 /* edits section start  */
 .bg-w{
 
-  height: 600px;
+  height: 482px;
 }
 /* edits section End */
 /* srevice   section strat  */
@@ -371,10 +457,89 @@ width: 56px !important;
 }
 
 .service-logo{
-  width: 350px;
+  width: 196px;
+margin-top: 50px;
+
 }
+
+.orange{
+  font-size: 10px;
+}
+
+.m7{
+  margin: 11px !important;
+}
+
+
+.service-lab{
+  font-size: 10px !important;
+}
+
+
+.padding{
+  padding: 0px  !important;
+}
+
+.service-logos{
+
+margin-right: 5px !important;
+
+}
+
+
+
+
+
+
+
+
+
 /* srevice   section End */
+
+
+/* tems section start  */
+
+.bg-teams{
+
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+
+}
+.arrow{
+  width: 150px;
+}
+/* footer start */
+.margin-t{
+  margin-top: 80px;
+}
+
+.m-t-link{
+  margin-top: 0px !important;
+}
+/* footer End*/
 
 
 }
 /* responsive design here */
+
+
+/* responsive tablet Start */
+
+@media only screen and (min-width: 933px) and (max-width: 1366px) {
+.col-bg{
+  height: 120px !important;
+}
+  .service-logo2{
+   display: none;
+}
+
+.service-logo{
+  width: 600px;
+}
+.arrow{
+  width: 200px;
+}
+
+}
+  
+/* responsive tablet End */
