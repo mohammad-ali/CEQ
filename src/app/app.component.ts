@@ -13,6 +13,14 @@ export class AppComponent implements OnInit {
       $('.carousel').carousel();
       $('.tabs').tabs();
       $('.collapsible').collapsible();
+
+      $('#prev').click(function(){
+        $('.carousel').carousel('prev');
+      });
+      $('#next').click(function(){
+        $('.carousel').carousel('next');
+      })
+
     });
   }
 }
