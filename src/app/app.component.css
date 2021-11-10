@@ -112,7 +112,7 @@
 
 }
 .m{
-
+  margin: 0px 50px !important;
   height: 390px;
 }
 .h1-cos{
@@ -365,6 +365,98 @@ width: 100%;
 }
 /* footer section End  */
 
+
+
+/* project section start page  */
+.bg-p{
+padding: 20px 95px !important;
+margin: 100px 0px  0px 0px !important;
+border-radius: 20px !important;
+background-color: #FBD3B2;
+}
+.bg-pa{
+  padding: 20px 95px !important;
+  margin: 10px 0px !important;
+  border-radius: 20px !important;
+  background-color: #FBD3B2;
+  }
+
+
+.h-p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  font-weight: 400;
+}
+
+.bg-p2{
+  background-color: #ffffff;
+  color: #000 !important;
+  border-radius: 40px !important;
+}
+
+.bg-border{
+  border-radius: 40px !important;
+  border-color: transparent !important;
+  
+}
+
+.p-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.m-left{
+  margin-top: 10px;
+  margin-left: 50px ;
+}
+.margin-r{
+  margin-right: 30px !important;
+}
+.style-caro2 {
+  background-color: #e1e1e1;
+  color: rgb(0 0 0);
+  font-weight: 500;
+  border-radius: 20px;
+  width: 245px;
+  height: 356px;
+  padding: 15px!important;
+}
+.nxt{
+  position: absolute;
+  top: 50%;
+  right: 0px ;
+}
+.pr{
+  position: absolute;
+  top: 50%;
+  left: 0px ;
+}
+.i{
+  width: 50px;
+}
+/* project section End page */
+
+/* team section page start  */
+.bg-p-t{
+  padding: 20px 95px !important;
+margin: 100px 0px  100px 0px !important;
+border-radius: 20px !important;
+background-color: #F6B900;
+}
+.h-t{
+  font-family: 'Nunito', sans-serif !important;
+  text-transform: capitalize !important;
+
+}
+
+.h-t-d{
+  font-family: 'Nunito', sans-serif !important;
+  color: #595959 !important;
+  text-transform: capitalize !important;
+}
+/* team section page End  */
+
+
+
 /* ********** index csss start ********** */
 
 /* responsive design here */
@@ -374,7 +466,7 @@ width: 100%;
   display: none !important;
 }
 
-/* heder bakground End */
+/* heder bakground End  */
 .m{
   margin: 0px;
 }
@@ -528,6 +620,13 @@ margin-right: 5px !important;
   margin-top: 0px !important;
 }
 /* footer End*/
+
+/* project section p2 start*/
+.bg-p{
+  padding: 1px 5px!important;
+}
+/* project section p2 End*/
+
 
 
 }
