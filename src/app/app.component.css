@@ -449,6 +449,7 @@ margin: 100px 0px  30px 0px !important;
 border-radius: 20px !important;
 background-color: #F6B900;
 }
+
 .p{
   padding: 5px;
 }
@@ -650,9 +651,19 @@ margin-right: 5px !important;
 .bg-p{
   padding: 1px 5px!important;
 }
+.m{
+  margin: 0px !important;
+}
 /* project section p2 End*/
 
-
+/* teams section p2 start */
+.team-p{
+  width: 300px;
+}
+.bg-p-t{
+  padding: 20px 10px!important;
+}
+/* teams section p2 End */
 
 }
 /* responsive design here */
