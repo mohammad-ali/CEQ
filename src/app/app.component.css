@@ -445,9 +445,22 @@ background-color: #FBD3B2;
 /* team section page start  */
 .bg-p-t{
   padding: 20px 95px !important;
-margin: 100px 0px  100px 0px !important;
+margin: 100px 0px  30px 0px !important;
 border-radius: 20px !important;
 background-color: #F6B900;
+}
+.p{
+  padding: 5px;
+}
+.bg-p-d{
+  background-color: #F6B900;
+ 
+  border-radius: 20px !important;
+  padding: 15px !important;
+  margin-right: 10px !important;
+  margin-bottom: 20px !important;
+
+  
 }
 .h-t{
   font-family: 'Nunito', sans-serif !important;
@@ -459,6 +472,11 @@ background-color: #F6B900;
   font-family: 'Nunito', sans-serif !important;
   color: #595959 !important;
   text-transform: capitalize !important;
+  
+}
+.icons{
+  width: 25px;
+  margin: 10px;
 }
 /* team section page End  */
 

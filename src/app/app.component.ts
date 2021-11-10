@@ -19,7 +19,8 @@ export class AppComponent implements OnInit {
       });
       $('#next').click(function(){
         $('.carousel').carousel('next');
-      })
+      });
+      $('.parallax').parallax();
 
     });
   }
