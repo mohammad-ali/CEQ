@@ -368,11 +368,11 @@ width: 100%;
 
 
 /* project section start page  */
-.bg-p{
+.bg-t{
 padding: 20px 95px !important;
 margin: 100px 0px  0px 0px !important;
 border-radius: 20px !important;
-background-color: #FBD3B2;
+background-color: transparent;
 }
 .bg-pa{
   padding: 20px 95px !important;
@@ -389,6 +389,11 @@ background-color: #FBD3B2;
 
 
 
+}
+.h1{
+  background-color: #FBD3B2;
+  border-radius: 20px;
+  margin: 15px;
 }
 
 .bg-p2{
@@ -654,11 +659,14 @@ margin-right: 5px !important;
 /* footer End*/
 
 /* project section p2 start*/
-.bg-p{
+.bg-t{
   padding: 1px 5px!important;
 }
 .m{
   margin: 0px !important;
+}
+.p-img{
+  display: none;
 }
 /* project section p2 End*/
 

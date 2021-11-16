@@ -8,6 +8,9 @@ declare var $: any;
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   ngOnInit() {
     $(document).ready(function () {
       $('.carousel').carousel();
@@ -22,6 +25,23 @@ export class AppComponent implements OnInit {
       });
       $('.parallax').parallax();
 
+      
+      
     });
+    
+    $(document).ready(function () {
+      $('.counter').counter({
+        start: 1000,
+        end: 4500,
+        time: 8,
+        step: 500,
+        callback: function() {
+            alert("I'm done!");
+        }
+    });
+  });
+  
+    
+    
   }
 }
