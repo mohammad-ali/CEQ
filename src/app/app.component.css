@@ -492,6 +492,12 @@ background-color: #F6B900;
 /* ********** index csss start ********** */
 
 /* responsive design here */
+
+
+
+
+
+
 @media only screen and (min-width: 280px) and (max-width: 924px) {
  /* heder background start */
 #backheader{
@@ -685,12 +691,22 @@ margin-right: 5px !important;
    display: none;
 }
 
+
 .service-logo{
   width: 600px;
 }
 .arrow{
   width: 200px;
 }
+/* project section */
+.m{
+  margin: 0px !important;
+}
+/* TEAM SECTION */
+.team-p{
+  width: 320px;
+}
+/* TEAM SECTION */
 
 }
 
