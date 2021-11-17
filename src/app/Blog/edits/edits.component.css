@@ -1,0 +1,45 @@
+.costum-inp{
+    background-color: white !important;
+    border-radius:30px !important ;
+    padding-left: 15px !important;
+  }
+
+  .cost-lb{
+    font-weight: 100;
+    color: #595959;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small !important;
+  }
+
+  .btm-sub{
+    border-radius: 15px !important;
+  }
+
+  .card{
+    border-radius: 15px;
+    margin: 40px;
+    min-width: 80%;
+  }
+
+  .card-image{
+    width: 120px;
+    margin-top: 3px;
+    margin-left: 5px;
+  
+    border-radius: 10px !important;
+  }
+  .indicator{
+    background-color: yellow !important;
+  }
+  
+  .a-hov{
+  color: orange !important;
+  border-radius: 5px;
+  width: fit-content !important;
+  }
+
+  .btn-bg{
+      background-color: orange !important;
+  }
+  
+  

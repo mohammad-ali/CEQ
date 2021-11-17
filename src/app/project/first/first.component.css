@@ -42,15 +42,17 @@ padding:  120px !important;
 }
 .relative{
   position: relative;
+  border-radius: 15px;
 }
 .bc{
   position:absolute;
-  left: 30%;
-  top: 40%;
-  width: 50px;
-  height: 50px;
+  left: 20%;
+  top: 50%;
+  width: 100px;
+  
 z-index: -1;
-  background-color: yellow;
+
+  
   transition: transform .7s ease-in-out;
 }
 .cos{

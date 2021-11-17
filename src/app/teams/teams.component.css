@@ -1,0 +1,51 @@
+/* team section page start  */
+.bg-p-t{
+    padding: 20px 95px !important;
+  margin: 100px 0px  30px 0px !important;
+  border-radius: 20px !important;
+  background-color: #F6B900;
+  }
+  
+  .p{
+    padding: 5px;
+  }
+  .bg-p-d{
+    background-color: #F6B900;
+  
+    border-radius: 20px !important;
+    padding: 15px !important;
+    margin-right: 10px !important;
+    margin-bottom: 20px !important;
+  
+  
+  }
+  .h-t{
+    font-family: 'Nunito', sans-serif !important;
+    text-transform: capitalize !important;
+  
+  }
+  
+  .h-t-d{
+    font-family: 'Nunito', sans-serif !important;
+    color: #595959 !important;
+    text-transform: capitalize !important;
+  
+  }
+  .icons{
+    width: 25px;
+    margin: 10px;
+  }
+  /* team section page End  */
+
+  /* responsive */
+
+  @media only screen and (min-width: 280px) and (max-width: 924px) {
+
+    .team-p{
+      width: 280px;
+    }
+    .bg-p-t{
+      padding: 20px 10px!important;
+    }
+
+  }
