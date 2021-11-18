@@ -2,7 +2,10 @@
 
 @import "materialize-css/dist/css/materialize.css";
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+a{
+  transition: all .3s ease-in-out !important;
+  text-transform: capitalize !important;
+}
 body{
 
   overflow-x: hidden !important;

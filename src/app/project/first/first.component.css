@@ -23,6 +23,7 @@ ul{
 a:hover{
 background-color: black !important;
 color: white !important;
+
 }
 
 .h-p{
@@ -71,6 +72,11 @@ color: orange !important;
 border-radius: 5px;
 width: fit-content !important;
 }
+.a-hov{
+  color: orange !important;
+  border-radius: 5px;
+  width: fit-content !important;
+  }
 
 
 @media only screen and (min-width: 280px) and (max-width: 924px) {
@@ -83,3 +89,13 @@ width: fit-content !important;
     }
 }
 
+@media only screen and (min-width: 924px) and (max-width: 1324px) {
+
+ 
+  .p-t{
+    padding: 0px !important;
+  }
+
+  
+
+}

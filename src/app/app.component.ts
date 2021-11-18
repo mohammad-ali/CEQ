@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
       $('.carousel').carousel();
       $('.tabs').tabs();
       $('.collapsible').collapsible();
-
+      
       $('#prev').click(function(){
         $('.carousel').carousel('prev');
       });
@@ -21,7 +21,12 @@ export class AppComponent implements OnInit {
         $('.carousel').carousel('next');
       });
       $('.parallax').parallax();
-
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
     });
   }
 }

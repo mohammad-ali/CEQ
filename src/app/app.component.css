@@ -22,17 +22,17 @@
   z-index: -1 !important;
   margin-top: 15% !important;
 }
-
 .transbox {
   width: 100px;
   position: absolute;
-  margin-top: 3%;
-  right: 10%;
+  right: 20px;
+  top: 25px;
   display: inline;
 }
 
-.transbox li {
-  display: inline;
+.transbox img {
+  max-width: 50px;
+  cursor: pointer;
 }
 
 #menu {
@@ -47,16 +47,14 @@
 }
 
 .it {
-  width: 100px;
   position: absolute;
   top: 15%;
   right: 50%;
 }
 .en {
-  width: 100px;
   position: absolute;
   top: 25%;
-  right: 155%;
+  right: 100%;
 }
 
 #logoheader {
@@ -66,6 +64,51 @@
 
 #backheader {
   padding-left: 5%;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  background: #1f1e1e !important;
+  color: white !important;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.tabs .tab a {
+  background: #1f1e1e !important;
+  color: white !important;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.tabs {
+  background: transparent !important;
+}
+
+.tabbox {
+  min-height: 300px;
+  background: white;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 15px !important;
+}
+
+#taber {
+  position: relative;
+  top: 120px;
+  margin: 20px !important;
+}
+
+.ml1 {
+  margin-left: 1% !important;
+}
+
+.ml60 {
+  margin-left: 11.5% !important;
+}
+
+#header2 {
+  min-height: 550px;
 }
 /* header section end */
 /*Project section start  */
@@ -680,6 +723,28 @@ margin-right: 5px !important;
 }
 /* responsive design here */
 
+@media only screen and (max-width: 1000px) {
+  #tabdiv {
+    position: relative;
+    top: 550px;
+  }
+  #logodiv {
+    position: relative;
+    bottom: 300px;
+  }
+  #header2 {
+    min-height: 1050px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #tabdiv {
+    top: 100px;
+  }
+  #header2 {
+    min-height: 630px;
+  }
+}
 
 /* responsive tablet Start */
 
