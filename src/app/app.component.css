@@ -161,7 +161,7 @@
 .h1-cos{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
   font-weight: 400;
-  color: #990500 !important;
+  color: white !important;
 }
 
 .rout{
@@ -191,7 +191,7 @@
 }
 
 .btn-cos{
-  background-color:#FF6C00;
+  background-color:orange;
   text-transform: capitalize;
 
   height: 30px;
@@ -201,7 +201,12 @@
   color: #000;
 }
 
-
+.a-hov{
+  color: orange !important;
+  border-radius: 5px;
+  width: fit-content !important;
+  }
+  
 /* project section End */
 
 /* EDITS SECTION START  */
@@ -347,7 +352,7 @@ width: 100%;
   background-color:#dedede ;
   border-radius: 5%;
   width: 90%;
-  height: 300px;
+  height: 400px;
   margin-top: 20px;
   padding: 15px;
   color: white !important;
@@ -421,7 +426,7 @@ border-radius: 20px !important;
   padding: 20px 95px !important;
   margin: 10px 0px !important;
   border-radius: 20px !important;
-  background-color: #FBD3B2;
+  background-color: #fef2e9;
   }
 
 
@@ -434,8 +439,11 @@ border-radius: 20px !important;
 
 }
 
+.p-d{
+  padding-bottom: 70px !important;
+}
 .bg-p2{
-  background-color: #ffffff;
+  background-color: #fef2e8;
   color: #000 !important;
   border-radius: 40px !important;
 }
@@ -692,6 +700,15 @@ margin-right: 5px !important;
 .arrow{
   width: 150px;
 }
+
+
+/* contact us start */
+.bg-g{
+  height: 385px;
+}
+/* contact us End */
+
+
 /* footer start */
 .margin-t{
   margin-top: 80px;
@@ -755,6 +772,12 @@ margin-right: 5px !important;
   .service-logo2{
    display: none;
 }
+
+/* contact us start */
+.bg-g{
+  height: 392px;
+}
+/* contact us End */
 
 
 .service-logo{

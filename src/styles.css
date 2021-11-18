@@ -11,6 +11,9 @@ body{
   overflow-x: hidden !important;
 }
 
+.btn-bg{
+  background-color: orange !important;
+}
 
 .row {
   padding: 0 !important;
