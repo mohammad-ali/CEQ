@@ -1,0 +1,10 @@
+.a-hov {
+    color: orange !important;
+    border-radius: 5px;
+    width: fit-content !important;
+    text-transform: capitalize;
+  }
+
+  .b{
+      font-weight: 500;
+  }

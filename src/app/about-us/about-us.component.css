@@ -1,0 +1,37 @@
+.a-hov {
+  color: orange !important;
+  border-radius: 5px;
+  width: fit-content !important;
+  text-transform: capitalize;
+}
+
+.b {
+  font-weight: 600;
+}
+
+.pp-img {
+  width: 250px;
+}
+
+.relative{
+  position: relative;
+}
+
+.top{
+  position: absolute;
+  right: 0 !important;
+  top: 20%;
+}
+@media only screen and (min-width: 280px) and (max-width: 924px) {
+.top{
+  position: relative;
+  
+}
+
+}
+
+@media only screen and (min-width: 924px) and (max-width: 1300px) {
+  .pp-img {
+    width: 150px;
+  }
+}

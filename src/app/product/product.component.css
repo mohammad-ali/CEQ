@@ -113,6 +113,10 @@
     border-radius: 5px;
     width: fit-content !important;
     }
+
+    .product-img{
+      width: 500px;
+    }
   
   
   @media only screen and (min-width: 280px) and (max-width: 924px) {
@@ -123,6 +127,10 @@
       .p-s{
         font-size: 11px !important;
       }
+
+      .product-img{
+        width: 250px;
+      }
   
      
   }
@@ -132,6 +140,10 @@
    
     .p-t{
       padding: 0px !important;
+    }
+
+    .product-img{
+      width: 250px;
     }
   
     
