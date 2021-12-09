@@ -1,0 +1,29 @@
+
+
+
+.f-bg{
+    background-image: url("/assets/images/footer/wave.svg") ;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .margin-t{
+    margin-top: 300px;
+  }
+  
+  .p-b{
+    padding-bottom: 30px !important;
+  }
+  
+  
+  .p-l{
+    padding-left: 15px !important;
+  }
+  
+  .text-o{
+    color: #F6B900;
+  }
+  
+  .m-t-link{
+    margin-top: 120px !important;
+  }

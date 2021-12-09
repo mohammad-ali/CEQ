@@ -1,0 +1,86 @@
+<div class="fluid-container">
+    <!-- test -->
+    <!-- header section start -->
+    <div class="row" id="header">
+      <div class="col l4 m4 s4">
+        <img
+          src="assets/images/logo_shape/topy.svg"
+          class="w100"
+          id="shapeheader"
+          alt=""
+        />
+      </div>
+      <div class="col l4 m4 s4">
+        <img
+          src="assets/images/heder_back/lamp.svg"
+          class="w100"
+          id="lampheader"
+          alt=""
+        />
+      </div>
+  
+      <div class="col l4 m4 s4 relative" id="toprightheader">
+        <div class="transbox">
+          <img
+            class="en"
+            src="assets/images/icons/translate/en_icon_a.svg"
+            alt=""
+          />
+          <img
+            class="it"
+            src="assets/images/icons/translate/it_icon_d.svg"
+            alt=""
+          />
+        </div>
+  
+        <a
+          class="btn-floating btn-large waves-effect waves-light z-depth-3"
+          id="menu"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
+    </div>
+  
+   
+    <div class="row" id="header2">
+      <div class="col l5 m12 s12" id="tabdiv">
+        <!--  -->
+        <div class="row" id="taber">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s3 ml1"><a [routerLink]="['/project']">Projects</a></li>
+              <li class="tab col s3 ml60">
+                <a class="active" [routerLink]="['/product']">Poducts</a>
+              </li>
+              <li class="tab col s3 ml60"><a [routerLink]="['/Team']" href="#test1" >Team</a></li>
+            </ul>
+          
+          </div>
+          <div id="test1" class="col s12 tabbox relative z-depth-3">
+           
+            <div class="center-align">
+              <a class="waves-effect waves-light btn btm-sub btn-bg"
+                ><i class="material-icons right">navigate_next</i>More</a
+              >
+            </div>
+          </div>
+      
+        </div>
+        <!--  -->
+      </div>
+      <div class="col l7 m12 s12" id="logodiv">
+       <a [routerLink]="['/']"> <img src="assets/images/logo/logo_top.svg" id="logoheader" alt="" /></a>
+        <img
+          src="assets/images/heder_back/top_bgb.png"
+          id="backheader"
+          class="w100"
+          alt=""
+        />
+      </div>
+    </div>
+  
+
+    
+  </div>
+
+  <router-outlet></router-outlet>

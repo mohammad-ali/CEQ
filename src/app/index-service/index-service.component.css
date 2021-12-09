@@ -1,0 +1,45 @@
+.padding{
+    padding: 0px 0px 0px 200px !important;
+  }
+  
+  .service-logos{
+  width: 42px !important;
+  margin-right: 45px !important;
+  
+  
+  }
+  
+  .col-bg-hd{
+  
+    background-color: #e2e2e2;
+    color: #000;
+    border-radius: 35px;
+  }
+  
+  .col-rd{
+    border-radius: 35px;
+  }
+  
+  .col-bg{
+    background-color: #C6C6C6;
+    height: 65px !important;
+    color: #000;
+    border-radius: 35px;
+  }
+  .m7{
+  margin: 40px !important;
+  }
+  .service-logo2{
+  width: 100%;
+  }
+  
+  .col-rad{
+    border-radius: 35px !important;
+  }
+  
+  .orange{
+    color:#F6B900 !important;
+    background-color: transparent !important;
+    font-size: 22px;
+    font-weight: 600 !important;
+  }
