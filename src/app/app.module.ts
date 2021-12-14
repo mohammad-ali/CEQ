@@ -21,6 +21,7 @@ import { IndexNewsComponent } from './News/index-news/index-news.component';
 import { IndexServiceComponent } from './index-service/index-service.component';
 import { MainIndexComponent } from './main-index/main-index.component';
 import { HomeComponent } from './home/home.component';
+import { FirstTeamComponent } from './Team/first-team/first-team.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { HomeComponent } from './home/home.component';
   
     IndexServiceComponent,
        MainIndexComponent,
-       HomeComponent
+       HomeComponent,
+       FirstTeamComponent
     
   ],
   imports: [

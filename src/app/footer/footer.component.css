@@ -27,3 +27,255 @@
   .m-t-link{
     margin-top: 120px !important;
   }
+
+
+@media only screen and (min-width: 280px) and (max-width: 924px) {
+  /* heder background start */
+ #backheader{
+   display: none !important;
+ }
+ 
+ /* heder bakground End  */
+ .m{
+   margin: 0px;
+ }
+ 
+ 
+ 
+ 
+ 
+   /* translate box media q strt  */
+  /*  .en{
+     right: 110%;
+   }
+ 
+   .en,.it{
+ width: 56px !important;
+ 
+   }
+   .transbox{
+     right: -24%;
+   } */
+ 
+   /* translate box media q end */
+ 
+   /* sinde nav bar start  */
+ #menu{
+   width: 50px;
+   height: 50px;
+   top: 43px;
+ 
+ }
+ 
+   /* translate box media q strt  */
+ 
+ 
+   /* translate box media q end */
+ 
+   /* sinde nav bar start  */
+ 
+   /* side nav bar end */
+   .rout{
+ 
+     transform: rotate(0deg);
+     margin: 10px 20px 28px 84px;
+   }
+ 
+   .h1-cos2{
+     font-size: 40px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     margin-right: 0px;
+     margin-left: 120px;
+     text-transform: capitalize;
+   }
+ 
+   .row .col.s10 {
+     width: 100% !important;
+   }
+   .style-caro{
+     width: 228px;
+     height: 382px;
+   }
+ .bg-dark{
+   height: 580px;
+ }
+ .bg-gray{
+   width: 100% !important;
+   height: 80px;
+ 
+ }
+ 
+ .h1-cos2{
+ 
+   margin:10px 0px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ /* edits section start  */
+ .bg-w{
+ 
+   height: 482px;
+ }
+ /* edits section End */
+ /* srevice   section strat  */
+ .service-logo2{
+   display: none;
+ }
+ 
+ .service-logo{
+   width: 196px;
+ margin-top: 50px;
+ 
+ }
+ 
+ .orange{
+   font-size: 10px;
+ }
+ 
+ .m7{
+   margin: 11px !important;
+ }
+ 
+ 
+ .service-lab{
+   font-size: 10px !important;
+ }
+ 
+ 
+ .padding{
+   padding: 0px  !important;
+ }
+ 
+ .service-logos{
+ 
+ margin-right: 5px !important;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* srevice   section End */
+ 
+ 
+ /* tems section start  */
+ 
+ .bg-teams{
+ 
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+ 
+ }
+ .arrow{
+   width: 150px;
+ }
+ 
+ 
+ /* contact us start */
+ .bg-g{
+   height: 385px;
+ }
+ /* contact us End */
+ 
+ 
+ /* footer start */
+ .margin-t{
+   margin-top: 80px;
+ }
+ 
+ .m-t-link{
+   margin-top: 0px !important;
+ }
+ /* footer End*/
+ 
+ /* project section p2 start*/
+ .bg-p{
+   padding: 1px 5px!important;
+ }
+ .m{
+   margin: 0px !important;
+ }
+ /* project section p2 End*/
+ 
+ /* teams section p2 start */
+ .team-p{
+   width: 300px;
+ }
+ .bg-p-t{
+   padding: 20px 10px!important;
+ }
+ /* teams section p2 End */
+ 
+ }
+ /* responsive design here */
+ 
+ @media only screen and (max-width: 1000px) {
+   #tabdiv {
+     position: relative;
+     top: 550px;
+   }
+   #logodiv {
+     position: relative;
+     bottom: 300px;
+   }
+   #header2 {
+     min-height: 1050px;
+   }
+ }
+ 
+ @media only screen and (max-width: 950px) {
+   #tabdiv {
+     top: 100px;
+   }
+   #header2 {
+     min-height: 630px;
+   }
+ }
+ 
+ /* responsive tablet Start */
+ 
+ @media only screen and (min-width: 933px) and (max-width: 1366px) {
+ .col-bg{
+   height: 120px !important;
+ }
+   .service-logo2{
+    display: none;
+ }
+ 
+ /* contact us start */
+ .bg-g{
+   height: 392px;
+ }
+ /* contact us End */
+ 
+ 
+ .service-logo{
+   width: 600px;
+ }
+ .arrow{
+   width: 200px;
+ }
+ /* project section */
+ .m{
+   margin: 0px !important;
+ }
+ /* TEAM SECTION */
+ .team-p{
+   width: 320px;
+ }
+ /* TEAM SECTION */
+ 
+ }
+ 
+ /* responsive tablet End */

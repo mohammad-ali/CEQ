@@ -2,15 +2,15 @@
     <!-- test -->
     <!-- header section start -->
     <div class="row" id="header">
-      <div class="col l4 m4 s4">
+      <div class="col l3 m4 s4">
         <img
-          src="assets/images/logo_shape/topy.svg"
+          src="assets/images/logo_shape/top{{color}}.svg"
           class="w100"
           id="shapeheader"
           alt=""
         />
       </div>
-      <div class="col l4 m4 s4">
+      <div class="col l3 m4 s4">
         <img
           src="assets/images/heder_back/lamp.svg"
           class="w100"
@@ -19,7 +19,7 @@
         />
       </div>
   
-      <div class="col l4 m4 s4 relative" id="toprightheader">
+      <div class="col l6 m4 s4 relative" id="toprightheader">
         <div class="transbox">
           <img
             class="en"
@@ -43,35 +43,47 @@
   
    
     <div class="row" id="header2">
-      <div class="col l5 m12 s12" id="tabdiv">
+      <div class="col l7 m12 s12" id="tabdiv">
         <!--  -->
         <div class="row" id="taber">
           <div class="col s12">
             <ul class="tabs">
-              <li class="tab col s3 ml1"><a [routerLink]="['/project']">Projects</a></li>
+              <li class="tab col s3 ml1"><a [routerLink]="['/project']" (click)="Ocolor()">Projects</a></li>
               <li class="tab col s3 ml60">
-                <a class="active" [routerLink]="['/product']">Poducts</a>
+                <a class="active" [routerLink]="['/product']" (click)="Bcolor()">Poducts</a>
               </li>
-              <li class="tab col s3 ml60"><a [routerLink]="['/Team']" href="#test1" >Team</a></li>
+              <li class="tab col s3 ml60"><a [routerLink]="['/Team']" (click)="Wcolor()" href="#test1" >Team</a></li>
             </ul>
           
           </div>
           <div id="test1" class="col s12 tabbox relative z-depth-3">
            
-            <div class="center-align">
-              <a class="waves-effect waves-light btn btm-sub btn-bg"
-                ><i class="material-icons right">navigate_next</i>More</a
-              >
+            <div class=" over-flow">
+              <div class="carousel carousel-slider center">
+                <div class="carousel-fixed-item center">
+                  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                </div>
+
+
+                <!-- ng for new main news indext -->
+                <div class="carousel-item  white-dark" href="#one!">
+                  <h3 >Hiring</h3>
+                  <p  class="white-dark m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum soluta nulla impedit ipsa harum cum corrupti, deserunt doloremque ex culpa ab molestiae aperiam pariatur omnis magnam eum reiciendis eos. Molestiae.</p>
+                  <img id="top-imgs" src="/assets/images/hirng/pexels-fauxels-3184465.jpg" alt="">
+                </div>
+            
+                
+              </div>
             </div>
           </div>
       
         </div>
         <!--  -->
       </div>
-      <div class="col l7 m12 s12" id="logodiv">
-       <a [routerLink]="['/']"> <img src="assets/images/logo/logo_top.svg" id="logoheader" alt="" /></a>
+      <div class="col l5 m12 s12" id="logodiv">
+       <a [routerLink]="['/']" (click)="Ycolor()"> <img  src="assets/images/logo/logo_top1.svg" id="logoheader" alt="" /></a>
         <img
-          src="assets/images/heder_back/top_bgb.png"
+          src="assets/images/heder_back/top_bg{{color}}.png"
           id="backheader"
           class="w100"
           alt=""

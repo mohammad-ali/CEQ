@@ -58,12 +58,12 @@
   }
   
   #logoheader {
-    max-width: 100%;
+    max-width: 70%;
     padding: 0 5%;
   }
   
   #backheader {
-    padding-left: 5%;
+    
   }
   
   .tabs .tab a:hover,
@@ -84,18 +84,46 @@
   .tabs {
     background: transparent !important;
   }
-  
+  #top-imgs{
+    width: 100%;
+    height: 100%;
+    filter:grayscale(20%) blur(8px);
+    
+   
+
+  }
+
+  .m-2{
+    padding: 40px;
+  }
+
+
+  #tabdiv {
+    position: relative;
+    right: -18px;
+    top: 73px;
+  }
+
+
+
+
+  .h1-cos2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  }
   .tabbox {
     min-height: 300px;
     background: white;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    padding: 15px !important;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+
+    overflow:hidden !important ;
   }
   
   #taber {
     position: relative;
-    top: 120px;
+    
     margin: 20px !important;
   }
   
@@ -108,7 +136,8 @@
   }
   
   #header2 {
-    min-height: 550px;
+    min-height: 500px;
+    
   }
   /* header section end */
   /*Project section start  */
@@ -138,7 +167,7 @@
     color:rgb(255, 255, 255);
     font-weight: 500;
     border-radius: 20px;
-    width: 290px;
+    width: 240px;
     height: 370px;
     padding: 15px !important;
   }
@@ -160,8 +189,8 @@
   }
   .h1-cos{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    font-weight: 400;
-    color: white !important;
+    font-weight: 300 !important;
+    color: rgb(0, 0, 0) !important;
   }
   
   .rout{
@@ -543,10 +572,15 @@
   /* ********** index csss start ********** */
   
   /* responsive design here */
+  #test1{
+    
+  }
   
   
-  
-  
+
+.tabs .tab a {
+font-size: 25px !important;  
+}  
   
   
   @media only screen and (min-width: 280px) and (max-width: 924px) {
@@ -677,6 +711,10 @@
   margin-right: 5px !important;
   
   }
+
+  .over-flow{
+    overflow:hidden !important ;
+  }
   
   
   
@@ -736,7 +774,10 @@
     padding: 20px 10px!important;
   }
   /* teams section p2 End */
-  
+  #logodiv {
+    position: relative;
+   top: -430px;
+  }
   }
   /* responsive design here */
   
@@ -800,3 +841,286 @@
   
   /* responsive tablet End */
   
+
+
+@media only screen and (min-width: 280px) and (max-width: 924px) {
+  /* heder background start */
+ #backheader{
+   display: none !important;
+ }
+ 
+ /* heder bakground End  */
+ .m{
+   margin: 0px;
+ }
+ 
+ 
+ 
+ 
+ 
+   /* translate box media q strt  */
+  /*  .en{
+     right: 110%;
+   }
+ 
+   .en,.it{
+ width: 56px !important;
+ 
+   }
+   .transbox{
+     right: -24%;
+   } */
+ 
+   /* translate box media q end */
+ 
+   /* sinde nav bar start  */
+ #menu{
+   width: 50px;
+   height: 50px;
+   top: 43px;
+ 
+ }
+ 
+   /* translate box media q strt  */
+ 
+ 
+   /* translate box media q end */
+ 
+   /* sinde nav bar start  */
+ 
+   /* side nav bar end */
+   .rout{
+ 
+     transform: rotate(0deg);
+     margin: 10px 20px 28px 84px;
+   }
+ 
+   .h1-cos2{
+     font-size: 40px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     margin-right: 0px;
+     margin-left: 120px;
+     text-transform: capitalize;
+   }
+ 
+   .row .col.s10 {
+     width: 100% !important;
+   }
+   .style-caro{
+     width: 228px;
+     height: 382px;
+   }
+ .bg-dark{
+   height: 580px;
+ }
+ .bg-gray{
+   width: 100% !important;
+   height: 80px;
+ 
+ }
+ 
+ .h1-cos2{
+ 
+   margin:10px 0px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ /* edits section start  */
+ .bg-w{
+ 
+   height: 482px;
+ }
+ /* edits section End */
+ /* srevice   section strat  */
+ .service-logo2{
+   display: none;
+ }
+ 
+ .service-logo{
+   width: 196px;
+ margin-top: 50px;
+ 
+ }
+ 
+ .orange{
+   font-size: 10px;
+ }
+ 
+ .m7{
+   margin: 11px !important;
+ }
+ 
+ 
+ .service-lab{
+   font-size: 10px !important;
+ }
+ 
+ 
+ .padding{
+   padding: 0px  !important;
+ }
+ 
+ .service-logos{
+ 
+ margin-right: 5px !important;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* srevice   section End */
+ 
+ 
+ /* tems section start  */
+ 
+ .bg-teams{
+ 
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+ 
+ }
+ .arrow{
+   width: 150px;
+ }
+ 
+ 
+ /* contact us start */
+ .bg-g{
+   height: 385px;
+ }
+ /* contact us End */
+ 
+ 
+ /* footer start */
+ .margin-t{
+   margin-top: 80px;
+ }
+ 
+ .m-t-link{
+   margin-top: 0px !important;
+ }
+ /* footer End*/
+ 
+ /* project section p2 start*/
+ .bg-p{
+   padding: 1px 5px!important;
+ }
+ .m{
+   margin: 0px !important;
+ }
+ /* project section p2 End*/
+ 
+ /* teams section p2 start */
+ .team-p{
+   width: 300px;
+ }
+ .bg-p-t{
+   padding: 20px 10px!important;
+ }
+ /* teams section p2 End */
+ 
+ }
+ /* responsive design here */
+ 
+ @media only screen and (max-width: 1000px) {
+   #tabdiv {
+     position: relative;
+     top: 550px;
+   }
+   #logodiv {
+     position: relative;
+     bottom: 300px;
+   }
+   #header2 {
+     min-height: 1050px;
+   }
+   #logoheader {
+    max-width: 100%;
+   
+  }
+
+  #taber {
+    top: 100px;
+  }
+
+  .tabbox{
+    border-bottom-right-radius: 20px;
+  }
+ }
+ 
+ @media only screen and (max-width: 950px) {
+   #tabdiv {
+     top: 47px;
+   }
+   #header2 {
+     min-height: 630px;
+   }
+
+   .tabbox{
+    border-bottom-right-radius: 20px;
+  }
+
+   #logoheader {
+    max-width: 100%;
+   
+  }
+
+  #taber {
+    top: 100px;
+  }
+ }
+ .b1{
+  font-weight: 500 !important;
+  }
+ /* responsive tablet Start */
+ 
+ @media only screen and (min-width: 933px) and (max-width: 1366px) {
+ .col-bg{
+   height: 120px !important;
+ }
+   .service-logo2{
+    display: none;
+ }
+
+ .tabbox{
+  border-bottom-right-radius: 20px;
+}
+ 
+ /* contact us start */
+ .bg-g{
+   height: 392px;
+ }
+ /* contact us End */
+ 
+ 
+ .service-logo{
+   width: 600px;
+ }
+ .arrow{
+   width: 200px;
+ }
+ /* project section */
+ .m{
+   margin: 0px !important;
+ }
+ /* TEAM SECTION */
+ .team-p{
+   width: 320px;
+ }
+ /* TEAM SECTION */
+ 
+ }
+ 
+ /* responsive tablet End */

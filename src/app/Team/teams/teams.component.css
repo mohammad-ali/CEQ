@@ -36,7 +36,9 @@
     margin: 10px;
   }
   /* team section page End  */
-
+  .team-p{
+    width: 250px;
+  }
   /* responsive */
 
   @media only screen and (min-width: 280px) and (max-width: 924px) {
