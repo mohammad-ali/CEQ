@@ -70,11 +70,17 @@
  #backheader{
    display: none !important;
  }
+
+ .team-p{
+   width: 180px;
+ }
  
  /* heder bakground End  */
  .m{
    margin: 0px;
  }
+
+
  
  
  
@@ -244,9 +250,7 @@
  /* project section p2 End*/
  
  /* teams section p2 start */
- .team-p{
-   width: 300px;
- }
+ 
  .bg-p-t{
    padding: 20px 10px!important;
  }
@@ -306,9 +310,7 @@
    margin: 0px !important;
  }
  /* TEAM SECTION */
- .team-p{
-   width: 320px;
- }
+
  /* TEAM SECTION */
  
  }

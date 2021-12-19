@@ -22,6 +22,7 @@ import { IndexServiceComponent } from './index-service/index-service.component';
 import { MainIndexComponent } from './main-index/main-index.component';
 import { HomeComponent } from './home/home.component';
 import { FirstTeamComponent } from './Team/first-team/first-team.component';
+import { TopNavComponent } from './top-nav/top-nav.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { FirstTeamComponent } from './Team/first-team/first-team.component';
     IndexServiceComponent,
        MainIndexComponent,
        HomeComponent,
-       FirstTeamComponent
+       FirstTeamComponent,
+       TopNavComponent
     
   ],
   imports: [

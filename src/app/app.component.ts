@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import * as jquery from 'jquery';
 declare var $: any;
 
@@ -7,9 +7,13 @@ declare var $: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit ,AfterViewChecked {
+  ngAfterViewChecked(): void {
+      
+  }
+  
   ngOnInit() {
-    $(document).ready(function () {
+   $(document).ready(function () {
       $('.carousel').carousel();
       $('.tabs').tabs();
       $('.collapsible').collapsible();
@@ -27,6 +31,6 @@ export class AppComponent implements OnInit {
         autoplayTimeout: 2000, //2000ms = 2s;
         autoplayHoverPause: true,
       });
-    });
+    }); 
   }
 }

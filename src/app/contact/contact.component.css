@@ -25,6 +25,7 @@
     color: #595959;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small !important;
+    padding-left: 20px !important;
   }
   .m-l{
     margin-left: 50px !important;
@@ -44,6 +45,9 @@
     color: #F6B900;
   }
 
+  .mail{
+    padding-top: 50px;
+  }
 
 @media only screen and (min-width: 280px) and (max-width: 924px) {
   /* heder background start */
@@ -56,6 +60,10 @@
    margin: 0px;
  }
  
+
+ .mail{
+   width: 150px;
+ }
  
  
  
@@ -275,7 +283,7 @@
  }
  /* contact us End */
  
- 
+
  .service-logo{
    width: 600px;
  }

@@ -9,7 +9,13 @@ export class IndexProjectComponent implements OnInit {
 
   constructor() { }
 
+ 
   ngOnInit(): void {
+
+   
+     
+
   }
+
 
 }

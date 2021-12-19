@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-index-news',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./index-news.component.css']
 })
 export class IndexNewsComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
+  RoutF(){
 
+  }
 }

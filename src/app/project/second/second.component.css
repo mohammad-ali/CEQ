@@ -1,10 +1,12 @@
+
+
 .bg-p{
     padding: 20px 95px !important;
     margin: 100px 0px  0px 0px !important;
     border-radius: 20px !important;
     
     }
-    .bg-pa{
+ .bg-pa{
       padding: 20px 95px !important;
       margin: 10px 0px !important;
       border-radius: 20px !important;
@@ -12,7 +14,7 @@
       }
     
     
-    .h-p{
+ .h-p{
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
       font-weight: 400;
       text-transform: capitalize !important;
@@ -35,6 +37,11 @@
       border-color: transparent !important;
     
     }
+
+    .relative{
+      position: relative;
+    }
+
     
     .p-img{
       width: 220px;
@@ -182,4 +189,12 @@
             left: 0px ;
             cursor: pointer;
           }
+
+          @media only screen and (min-width: 280px) and (max-width: 924px) {
+
+           .bg-p{
+             padding: 0px !important;
+             margin: 0px !important;
+           }
+           }
     /* project section End page */

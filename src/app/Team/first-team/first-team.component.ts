@@ -10,6 +10,11 @@ export class FirstTeamComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $(document).ready(function() {
+      $('html, body').animate({
+          scrollTop: '900px'
+      }, 1000);
+  });
   }
 
 }

@@ -9,8 +9,12 @@
     color: #595959;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small !important;
+    padding-left: 15px !important;
   }
-  
+  .p-fix{
+    position: fixed;
+    z-index: 99999;
+  }
   .btm-sub{
     border-radius: 15px !important;
   }

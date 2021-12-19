@@ -15,7 +15,11 @@ export class ProductComponent implements OnInit {
       
       $('.collapsible').collapsible();
     
-   
+     
+        $('html, body').animate({
+            scrollTop: '900px'
+        }, 1000);
+    
     });
   }
 

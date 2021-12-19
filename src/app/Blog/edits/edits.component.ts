@@ -10,6 +10,8 @@ export class EditsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+   
   }
 
 }

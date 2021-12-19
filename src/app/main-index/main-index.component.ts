@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import * as jquery from 'jquery';
 declare var $: any;
 
@@ -7,8 +7,8 @@ declare var $: any;
   templateUrl: './main-index.component.html',
   styleUrls: ['./main-index.component.css']
 })
-export class MainIndexComponent implements OnInit {
-  color :string ="y" ;
+export class MainIndexComponent implements OnInit   {
+ public color :string ="y" ;
   constructor() { }
 
   ngOnInit(): void {
