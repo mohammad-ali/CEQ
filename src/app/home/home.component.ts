@@ -10,6 +10,9 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $('html, body').animate({
+      scrollTop: '0px'
+  }, 1000);
   }
 
 }

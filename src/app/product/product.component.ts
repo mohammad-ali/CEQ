@@ -17,7 +17,7 @@ export class ProductComponent implements OnInit {
     
      
         $('html, body').animate({
-            scrollTop: '900px'
+            scrollTop: '1000px'
         }, 1000);
     
     });

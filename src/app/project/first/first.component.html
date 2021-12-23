@@ -47,11 +47,11 @@
 <!-- card project -->
 
 <div class="row ">
-  <div class="col l3 m6 s12 relative z-depth-3 p">
+  <div class="col l3 m6 s12 relative z-depth-3 p" *ngFor="let proj of project">
     <div class="bc"><img class="bc" src="/assets/images/logo/logS.png" alt=""></div>
-    <h3>Title</h3>
+    <h4>{{proj.name}}</h4>
     <p class="cos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis enim sint natus asperiores sunt debitis eum aut numquam</p>
-    <a [routerLink]="['/project',0]" class="a-hov"><i class="small material-icons">arrow_forward</i></a>
+    <a [routerLink]="['/project',proj.id]"  class="a-hov"><i class="small material-icons">arrow_forward</i></a>
   </div>
 
  

@@ -1,5 +1,6 @@
 import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import * as jquery from 'jquery';
+import { CyberService } from './services/cyber.service';
 declare var $: any;
 
 @Component({
@@ -7,12 +8,12 @@ declare var $: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent implements OnInit ,AfterViewChecked {
-  ngAfterViewChecked(): void {
-      
-  }
+export class AppComponent implements OnInit {
+
+  
   
   ngOnInit() {
+  
    $(document).ready(function () {
       $('.carousel').carousel();
       $('.tabs').tabs();
@@ -31,6 +32,9 @@ export class AppComponent implements OnInit ,AfterViewChecked {
         autoplayTimeout: 2000, //2000ms = 2s;
         autoplayHoverPause: true,
       });
-    }); 
+    });
+    
+    
+   
   }
 }

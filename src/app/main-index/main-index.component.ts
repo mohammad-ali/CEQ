@@ -14,6 +14,7 @@ export class MainIndexComponent implements OnInit   {
   ngOnInit(): void {
 
     $(document).ready(function () {
+      
       $('.carousel.carousel-slider').carousel({
         fullWidth: true,
         indicators: true
@@ -25,6 +26,11 @@ export class MainIndexComponent implements OnInit   {
       
   
     });
+
+
+
+
+    
   }
 
   

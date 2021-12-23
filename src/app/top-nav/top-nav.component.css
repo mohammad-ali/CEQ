@@ -1,5 +1,44 @@
 /* ********** index csss start ********** */
+.c-h{
+  margin-top: 30px;
+  
+  border: solid 5px black;
+  width: 300px;
+  background-color: black;
+  height: 100px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
 
+}
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+  height: 64px;
+  line-height: 64px;
+}
+.line{
+  margin-bottom: 50px ;
+  border-bottom: solid 3px rgba(0, 0, 0, 0.194);
+}
+
+.p-fix{
+  position: fixed;
+  z-index: 99999;
+  background-color: rgb(0, 0, 0) ;
+}
+.h-p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+
+
+}
+#menu{
+  background-color: rgb(255, 255, 255);
+}
+.logo{
+  width: 70px;
+  margin-left: 20px;
+}
 /* global start */
 .col {
     padding: 0 !important;
@@ -37,13 +76,13 @@
   
   #menu {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
-    background: #c6c6c6 !important;
+    background: #000000 !important;
   }
   
   #menu i {
-    color: #000;
+    color: rgb(255, 255, 255);
   }
   
   .it {

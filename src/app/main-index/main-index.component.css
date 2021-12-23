@@ -11,7 +11,7 @@
     position: relative;
   }
   /* global end */
-  
+ 
   /* header section start */
   #shapeheader {
     z-index: 15 !important;
@@ -21,6 +21,14 @@
     position: relative;
     z-index: -1 !important;
     margin-top: 15% !important;
+  }
+  .over-h{
+    overflow: hidden !important;
+  }
+
+  .top-bg{
+    width: 1500px;
+    height: 100vh;
   }
   .transbox {
     width: 100px;
@@ -34,7 +42,15 @@
     max-width: 50px;
     cursor: pointer;
   }
-  
+  .top-bg3{
+    position: absolute;
+    z-index: -1;
+  }
+  .top-caro{
+    position: absolute;
+    top: 50px;
+    margin: 200px;
+  }
   #menu {
     position: absolute;
     top: 10px;
@@ -584,7 +600,42 @@
   }
   /*news section pages 2 start   */
   
+.ul-top-costum{
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+.bg-top-menu:hover{
+  background-color: rgb(255, 255, 255);
   
+}
+
+.h1-top:hover{
+  color: black;
+}
+.h1-top{
+  position: absolute;
+  top: -9px;
+  left: 38px;
+}
+.bg-top-menu{
+  position: relative;
+  background-color: gray;
+  height: 88px;
+  
+  margin:80px 0px;
+ width: 250px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  transition: all 1s;
+  
+}
+  .top-bg2{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+
+  }
   
   /* ********** index csss start ********** */
   
@@ -1147,3 +1198,40 @@ font-size: 25px !important;
  }
  
  /* responsive tablet End */
+ .mouse {
+  position: absolute;
+  left: 50%;
+  bottom: 35px;
+  width: 20px;
+  margin-left: -15px;
+  height: 36px;
+  border-radius: 17px;
+  border: 2px solid #4a4a4a;
+}
+
+.scroll-animation {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  margin-left: -2px;
+  width: 4px;
+  height: 9px;
+  border-radius: 2px;
+  -webkit-animation: scroll-down 1.25s infinite linear;
+  animation: scroll-down 1s infinite linear;
+animation-direction: alternate;
+  -webkit-transform-origin: 50% 0%;
+transform-origin: 50% 0%; 
+transition: smooth;}
+
+@keyframes scroll-down {
+0% {background-color: red;
+height: 2px}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;
+transform: translateY(4px);
+height: 9px;}
+}
+
+ 

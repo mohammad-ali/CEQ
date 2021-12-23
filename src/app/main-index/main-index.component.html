@@ -1,12 +1,64 @@
 <div class="fluid-container">
- 
   <!-- test -->
   <!-- header section start -->
-<app-top-nav></app-top-nav>
+  <app-top-nav></app-top-nav>
+<div class="row">
+  <div class="col l4 m4 over-h relative">
+    <img class="top-bg" src="/assets/images/top_bg/a.png" alt="">
+    <ul class="ul-top-costum">
+      <li class="bg-top-menu"><a routerLinkActive="active2"
+        [routerLink]="['/project']"
+        (click)="Ocolor()"><h3 class="h1-top">Project</h3></a></li>
+      <li class="bg-top-menu"><a routerLinkActive="active2"
+        [routerLink]="['/product']"
+        (click)="Ocolor()"><h3 class="h1-top">Product</h3></a></li>
+      <li class="bg-top-menu"><a routerLinkActive="active2"
+        [routerLink]="['/blog']"
+        (click)="Ocolor()"><h3 class="h1-top">Blogs</h3></a></li>
+      <li class="bg-top-menu"><a routerLinkActive="active2"
+        [routerLink]="['/Team']"
+        (click)="Ocolor()"><h3 class="h1-top">Team</h3></a></li>
+
+
+      
+    </ul>
   
-  <div class="row" id="header2">
+  </div>
+  <div class="col l8 m8 bg-2 over-h relative">
+    <!-- top carousel  -->
+    <div class="top-caro">
+      <h1>title</h1>
+      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium possimus deleniti ipsam </h3>
+      <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam reiciendis? Iste voluptas, fuga vitae placeat eveniet maxime ex, commodi odio, dolorem magnam voluptatibus sed incidunt! Est dolores excepturi similique.</h5>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis eligendi dolorum assumenda possimus maiores id alias veritatis corrupti ut, voluptatem tenetur magni blanditiis cumque illo suscipit ipsum, dolorem sint. Dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio suscipit corporis doloribus id veniam nihil? Odit modi voluptatum in, culpa tenetur molestias placeat eaque ratione cupiditate necessitatibus at labore ea.</p>
+
+
+    </div>
+    
+    
+    
+    
+    
+    <img class="top-bg3" src="/assets/images/logo_shape/top{{color}}.svg" alt="">
+    
+    <img class="top-bg2" src="/assets/images/top_bg/bg_top2.svg" alt="">
+   
+   
+   
+   
+    <div class="scroll relative">
+      
+      <div class="mouse">
+        <div class="scroll-animation"></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+  <!-- <div class="row" id="header2">
     <div class="col l7 m12 s12" id="tabdiv">
-      <!--  --> 
+     
       <div class="row" id="taber">
         <div class="col s12">
           <ul class="tabs">
@@ -47,7 +99,7 @@
                 >
               </div>
 
-              <!-- ng for new main news indext -->
+             
               <div class="carousel-item white-dark relative" href="#one!">
                 <h3 class="b">Hiring</h3>
                 <p class="white-dark m-2">
@@ -66,7 +118,7 @@
           </div>
         </div>
       </div>
-      <!--  -->
+      
     </div>
     <div class="col l5 m12 s12" id="logodiv">
       <a [routerLink]="['/']" (click)="Ycolor()">
@@ -78,9 +130,8 @@
         class="w100"
         alt=""
       />
-      
     </div>
-  </div>
+  </div> -->
 </div>
 
 <router-outlet></router-outlet>

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Projects } from 'src/app/Interface/projects';
 
 @Component({
   selector: 'app-second',
@@ -8,8 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class SecondComponent implements OnInit {
 
   constructor() { }
-
+ 
   ngOnInit(): void {
+    
+
     $(document).ready(function () {
       
       

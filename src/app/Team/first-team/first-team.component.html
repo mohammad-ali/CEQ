@@ -21,8 +21,10 @@
   </div>
 
   <div class="row center">
-      <div class="col l3 m4 s12">
-         <a [routerLink]="['/Team', a]"><img width="250px" src="/assets/images/Teams/valeria_card.png" alt=""></a> 
+    <!-- ng for Team section -->
+      <div class="col l3 m4 s12" *ngFor="let Team of Teams">
+        <h5>{{Team.achievement}}</h5> <!-- Test -->
+        <a [routerLink]="['/Team', Team.id]"><img width="250px" src="/assets/images/Teams/valeria_card.png" alt=""></a> 
       </div>
 
     

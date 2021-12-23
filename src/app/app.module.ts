@@ -23,6 +23,9 @@ import { MainIndexComponent } from './main-index/main-index.component';
 import { HomeComponent } from './home/home.component';
 import { FirstTeamComponent } from './Team/first-team/first-team.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
+import { CyberService } from './services/cyber.service';
+import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -52,9 +55,10 @@ import { TopNavComponent } from './top-nav/top-nav.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [CyberService,HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
