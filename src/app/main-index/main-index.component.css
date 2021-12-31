@@ -10,8 +10,26 @@
   .relative {
     position: relative;
   }
+
+  .nav-img2{
+    width: 300px; 
+    height: 300px;
+     
+    position: absolute;
+     
+      top: 70px ;
+       left: 200px; 
+       
+  }
   /* global end */
+ .nav-img{
  
+  position: absolute;
+  height: 400px;
+    bottom: 30px ;
+     right: 0; 
+     
+ }
   /* header section start */
   #shapeheader {
     z-index: 15 !important;
@@ -48,7 +66,7 @@
   }
   .top-caro{
     position: absolute;
-    top: 50px;
+    top: 134px;
     margin: 200px;
   }
   #menu {
@@ -60,6 +78,11 @@
   
   #menu i {
     color: #000;
+  }
+  .h-top{
+    color: #000000;
+    font-weight: 600;
+    font-size: 22px;
   }
   
   .it {
@@ -599,29 +622,54 @@
     width: 180px !important;
   }
   /*news section pages 2 start   */
-  
+ li{
+   border-right: solid 1px black;
+   padding-right: 44px;
+   margin: 0px 20px;
+   transition: all 1s;
+   
+ } 
+ li:last-child{
+  border-right:none ;
+ }
+ li:hover,li:active{
+   background-color: black;
+   color: white !important;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   padding-right: 10px;
+
+ }
+ h5:hover,h5:active{
+   color: white;
+ }
 .ul-top-costum{
   position: absolute;
-  top: 150px;
+  display: inline-flex;
   right: 0;
+  top: 40px;
+ text-transform: capitalize;
+  z-index: 9999;
+  color: #000000 !important;
+  transition: all 1s;
+
 }
 .bg-top-menu:hover{
   background-color: rgb(255, 255, 255);
   
 }
 
-.h1-top:hover{
-  color: black;
-}
+
 .h1-top{
   position: absolute;
-  top: -9px;
-  left: 38px;
+  top: -8px;
+  left: 50px;
+  font-weight: 600;
 }
 .bg-top-menu{
   position: relative;
   background-color: gray;
-  height: 88px;
+  height: 70px;
   
   margin:80px 0px;
  width: 250px;
@@ -927,8 +975,20 @@ font-size: 25px !important;
  .m{
    margin: 0px;
  }
+ .top-caro{
+   margin: 50px 0px;
+   padding-left: 20px;
+ }
  
- 
+ li{
+   margin: 0;
+   border: none;
+   padding-right: 30px;
+ }
+ h5{
+  font-size: 15px !important;
+
+ }
  
  
  

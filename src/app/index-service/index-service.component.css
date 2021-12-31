@@ -36,9 +36,13 @@
   .col-rad{
     border-radius: 35px !important;
   }
+
+  .service-lab{
+    color: rgb(78, 78, 78) !important;
+  }
   
   .orange{
-    color:#F6B900 !important;
+    color:#000000 !important;
     background-color: transparent !important;
     font-size: 22px;
     font-weight: 600 !important;

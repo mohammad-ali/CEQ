@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as jquery from 'jquery';
+declare var $: any;
+ 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -13,6 +15,9 @@ export class HomeComponent implements OnInit {
     $('html, body').animate({
       scrollTop: '0px'
   }, 1000);
+
+
+  
   }
 
 }

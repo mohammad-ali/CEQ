@@ -82,9 +82,17 @@
   
   }
   .card{
-    background-color: #050505 !important;
-      color: white !important;
+    background-color:transparent !important;
+      color: rgb(0, 0, 0) !important;
       font-weight: 600;
+  }
+ .over-h{
+   overflow: hidden !important;
+ }
+
+  .img-news{
+    width: 150px;
+    border-radius: 15px;
   }
   
   .btn-cos{

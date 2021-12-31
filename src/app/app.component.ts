@@ -15,6 +15,10 @@ export class AppComponent implements OnInit {
   ngOnInit() {
   
    $(document).ready(function () {
+  
+   
+
+    $('.carousel').carousel('duration');
       $('.carousel').carousel();
       $('.tabs').tabs();
       $('.collapsible').collapsible();

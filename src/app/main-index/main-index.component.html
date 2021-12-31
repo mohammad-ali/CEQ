@@ -1,37 +1,41 @@
 <div class="fluid-container">
   <!-- test -->
+  
   <!-- header section start -->
   <app-top-nav></app-top-nav>
-<div class="row">
-  <div class="col l4 m4 over-h relative">
-    <img class="top-bg" src="/assets/images/top_bg/a.png" alt="">
-    <ul class="ul-top-costum">
-      <li class="bg-top-menu"><a routerLinkActive="active2"
-        [routerLink]="['/project']"
-        (click)="Ocolor()"><h3 class="h1-top">Project</h3></a></li>
-      <li class="bg-top-menu"><a routerLinkActive="active2"
-        [routerLink]="['/product']"
-        (click)="Ocolor()"><h3 class="h1-top">Product</h3></a></li>
-      <li class="bg-top-menu"><a routerLinkActive="active2"
-        [routerLink]="['/blog']"
-        (click)="Ocolor()"><h3 class="h1-top">Blogs</h3></a></li>
-      <li class="bg-top-menu"><a routerLinkActive="active2"
-        [routerLink]="['/Team']"
-        (click)="Ocolor()"><h3 class="h1-top">Team</h3></a></li>
+  <div class="row relative">
+  <img class="nav-img2" src="/assets/images/logo/CEL.svg" alt="">
 
-
-      
-    </ul>
-  
+  <div style=" position: absolute; top: 63px; width: 200px; height: 100%; left: -160px;">
+   <img width="600px" src="/assets/video/cel.gif" alt="">
   </div>
-  <div class="col l8 m8 bg-2 over-h relative">
+ 
+  <div class="col l12 m12 s12 bg-2 over-h relative">
+    <div class="row relative">
+      <div class="col l12 m12 s12 relative center">
+        <ul class="ul-top-costum center">
+          <li class="center-algin"><a (click)="Ycolor()" [routerLink]="['/project']" ><h5 class="h-top">Project</h5></a></li>
+          <li class="center-algin"><a  (click)="Wcolor()" [routerLink]="['/product']"><h5 class="h-top">product</h5></a></li>
+          <li class="center-algin"><a (click)="Ocolor()" [routerLink]="['/Team']"><h5 class="h-top">team</h5></a></li>
+          <li class="center-algin"><a (click)="Bcolor()" [routerLink]="['/About-Us']"><h5 class="h-top">about us</h5></a></li>
+
+        </ul>
+      </div>
+    </div>
+    <img class="nav-img" src="/assets/images/logo/toperBg{{color}}.svg" alt="">
     <!-- top carousel  -->
     <div class="top-caro">
-      <h1>title</h1>
-      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium possimus deleniti ipsam </h3>
-      <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam reiciendis? Iste voluptas, fuga vitae placeat eveniet maxime ex, commodi odio, dolorem magnam voluptatibus sed incidunt! Est dolores excepturi similique.</h5>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis eligendi dolorum assumenda possimus maiores id alias veritatis corrupti ut, voluptatem tenetur magni blanditiis cumque illo suscipit ipsum, dolorem sint. Dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio suscipit corporis doloribus id veniam nihil? Odit modi voluptatum in, culpa tenetur molestias placeat eaque ratione cupiditate necessitatibus at labore ea.</p>
+      <div class="row">
+        <div class="col l12">
+          <h1>title</h1>
+          <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium possimus deleniti ipsam </h3>
+          <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam reiciendis? Iste voluptas, fuga vitae placeat eveniet maxime ex, commodi odio, dolorem magnam voluptatibus sed incidunt! Est dolores excepturi similique.</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis eligendi dolorum assumenda possimus maiores id alias veritatis corrupti ut</p>
 
+        </div>
+
+        
+      </div>  
 
     </div>
     
@@ -43,12 +47,14 @@
     
     <img class="top-bg2" src="/assets/images/top_bg/bg_top2.svg" alt="">
    
+   <div class="row">
+     <div class="col l3 bg-color"> </div>
+   </div>
    
    
-   
-    <div class="scroll relative">
+    <div class="row scroll relative">
       
-      <div class="mouse">
+      <div class=" col mouse">
         <div class="scroll-animation"></div>
       </div>
 
@@ -56,82 +62,6 @@
   </div>
 
 </div>
-  <!-- <div class="row" id="header2">
-    <div class="col l7 m12 s12" id="tabdiv">
-     
-      <div class="row" id="taber">
-        <div class="col s12">
-          <ul class="tabs">
-            <li class="tab col s3 ml1">
-              <a
-                routerLinkActive="active2"
-                [routerLink]="['/project']"
-                (click)="Ocolor()"
-                >Projects</a
-              >
-            </li>
-            <li class="tab col s3 ml60">
-              <a
-                class="active2"
-                routerLinkActive="active2"
-                [routerLink]="['/product']"
-                (click)="Bcolor()"
-                >Poducts</a
-              >
-            </li>
-            <li class="tab col s3 ml60">
-              <a
-                routerLinkActive="active2"
-                [routerLink]="['/Team']"
-                (click)="Wcolor()"
-                href="#test1"
-                >Team</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div id="test1" class="col s12 tabbox relative z-depth-3">
-          <div class="over-flow">
-            <div class="carousel carousel-slider center">
-              <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2"
-                  >button</a
-                >
-              </div>
-
-             
-              <div class="carousel-item white-dark relative" href="#one!">
-                <h3 class="b">Hiring</h3>
-                <p class="white-dark m-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Laborum soluta nulla impedit ipsa harum cum corrupti, deserunt
-                  doloremque ex culpa ab molestiae aperiam pariatur omnis magnam
-                  eum reiciendis eos. Molestiae.
-                </p>
-                <img
-                  id="top-imgs"
-                  src="/assets/images/hirng/pexels-fauxels-3184465.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-    <div class="col l5 m12 s12" id="logodiv">
-      <a [routerLink]="['/']" (click)="Ycolor()">
-        <img src="assets/images/logo/logo_top1.svg" id="logoheader" alt=""
-      /></a>
-      <img
-        src="assets/images/heder_back/top_bg{{ color }}.png"
-        id="backheader"
-        class="w100"
-        alt=""
-      />
-    </div>
-  </div> -->
 </div>
 
 <router-outlet></router-outlet>

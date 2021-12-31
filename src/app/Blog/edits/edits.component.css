@@ -48,6 +48,20 @@
     z-index: 99999;
     background-color: white ;
   }
+.transparent{
+  background: transparent !important;
+}
+
+.wi-s{
+  background-color:  #f3f3f3 !important;
+}
+  .patern{
+    background: url("/assets/images/top_bg/patern.svg")  center  ;
+    background-size: cover;
+
+    
+  }
+
   .over-h{
     overflow: hidden !important;
   }
