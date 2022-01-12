@@ -11,7 +11,8 @@ import { CyberService } from 'src/app/services/cyber.service';
   
 })
 export class FirstComponent implements OnInit {
-project : Projects[] = []
+project : Projects[] = [] ;
+  value : any = 0;
 
 constructor(private CyberService : CyberService,
   private rout : ActivatedRoute){}
@@ -21,7 +22,7 @@ constructor(private CyberService : CyberService,
 
   ngOnInit(): void {
 
-    this. CyberService.GetProjects().subscribe((result) => {
+    this. CyberService.GetProjects(2).subscribe((result) => {
       console.log(result)
       let proj = JSON.parse(JSON.stringify(result))
       return this.project = proj.rows ;
@@ -41,5 +42,16 @@ constructor(private CyberService : CyberService,
 
   
 }
+
+
+
+
+val(ev : Event){
+
+  console.log(ev)
+
+}
+
+
 
 }

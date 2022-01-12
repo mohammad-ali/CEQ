@@ -20,6 +20,7 @@ ul{
   border-radius: 35px !important;
 }
 
+
 a:hover{
 background-color: black !important;
 color: white !important;
@@ -73,7 +74,7 @@ z-index: -1;
   transition: transform .7s ease-in-out;
 }
 .p{
-  margin: 5px !important;
+  margin: 35px !important;
 }
 .cos{
   z-index: 99999 !important;

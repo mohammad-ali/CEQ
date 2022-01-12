@@ -11,14 +11,22 @@ export class CyberService {
     
     
   }
-  private REST_API_SERVER_PROJECTS = 'http://195.231.19.203:8080/api/project';
+  private REST_API_SERVER_PROJECTS = 'http://195.231.19.203:8080/api/project?page=2';
   private REST_API_SERVER_MEMBERS = 'http://195.231.19.203:8080/api/team-member';
 
  
-  GetProjects() {
-  return  this.http.get(this.REST_API_SERVER_PROJECTS);
+
+
+  GetProjects(page  : number) {
+    var url:string  ='http://195.231.19.203:8080/api/project';
+    if( page  != 0){
+       url = url +'?page=' + page;
+       console.log(url);
+    }
+    return  this.http.get(url);
  
   }
+
 
   GetMemberTeam(){
     return this.http.get(this.REST_API_SERVER_MEMBERS)
