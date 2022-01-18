@@ -106,7 +106,15 @@
     .tit{
       font-size: 15px !important;
     }
-    
+    .p{
+      margin: 10px;
+    }
+    .bold4{
+      font-weight: 800 !important;
+    }
+    .a-black{
+      color: black !important;
+    }
     .bg-border{
       border-radius: 40px !important;
       border-color: transparent !important;
@@ -121,7 +129,7 @@
     .p-img{
       width: 300px;
       height: 300px;
-      border-radius: 100%;
+    
   position: relative;
       right: -100px;
 
