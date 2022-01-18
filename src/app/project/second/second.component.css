@@ -29,7 +29,7 @@
     .side-autor{
       position: fixed;
       top: 40%;
-      left: 20px;
+      left: 43px;
     }
 
     .box-aut{
@@ -70,25 +70,26 @@
   margin-top: 20px;
 }
     .bold{
+      font-size: 20px !important;
       font-weight: 700;
       color:rgb(54,54,54);
     }
     .bold2{
       font-weight: 500;
-      font-size: 15px !important;
+      font-size: 25px !important;
       color: #858585;
       text-overflow: ellipsis !important;
     }
     .bold3{
       font-weight: 500;
-      font-size: 18px !important;
+      font-size: 25px !important;
       text-transform: capitalize;
       color: #858585;
       margin-left: 10px;
       text-overflow: ellipsis !important;
     }
     .autor{
-      width: 80px;
+      width: 100px;
     }
     .like-numb{
       position: absolute;
@@ -103,9 +104,7 @@
       color: #000 !important;
       border-radius: 40px !important;
     }
-    .tit{
-      font-size: 15px !important;
-    }
+    
     .p{
       margin: 10px;
     }
