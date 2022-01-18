@@ -66,28 +66,20 @@
 
     <div class="bt">
       
-     
-
-
-
-      <label>
-       
-          <input class="with-gap" name="group3" type="radio" value="0" checked />
+      <label  >
+        
+          <input class="with-gap" name="group3" type="radio" value="0" (click)="val($any($event.target).value)" checked />
           <span></span>
-       
+      
         
       </label>
-      <label>
-       
-          <input class="with-gap" name="group3" type="radio" value="0" checked />
-          <span></span>
-       
-        
-      </label>
+
+    
+
       
     </div>
     
-
+    <h5>{{v}}</h5>
   </div>
 
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Projects } from 'src/app/Interface/projects';
 import { CyberService } from 'src/app/services/cyber.service';
@@ -12,22 +12,24 @@ import { CyberService } from 'src/app/services/cyber.service';
 })
 export class FirstComponent implements OnInit {
 project : Projects[] = [] ;
-  value : any = 0;
+ public v : any = 2;
 
 constructor(private CyberService : CyberService,
   private rout : ActivatedRoute){}
-  
+
+
+
   
 
 
   ngOnInit(): void {
 
-    this. CyberService.GetProjects(2).subscribe((result) => {
+   
+    this. CyberService.GetProjects(this.v).subscribe((result) => {
       console.log(result)
       let proj = JSON.parse(JSON.stringify(result))
       return this.project = proj.rows ;
-    })
-
+    })  ;
    
 
     
@@ -46,9 +48,9 @@ constructor(private CyberService : CyberService,
 
 
 
-val(ev : Event){
+val(ev : number){
 
-  console.log(ev)
+ this.v= ev
 
 }
 

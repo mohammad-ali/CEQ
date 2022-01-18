@@ -22,7 +22,79 @@
     
     
     }
+
+.f-left{
+  float: right;
+}
+    .side-autor{
+      position: fixed;
+      top: 40%;
+      left: 20px;
+    }
+
+    .box-aut{
+      position: relative;
+      top: 0;
+      left: 10px;
+      padding-bottom: 15px;
+      border-bottom: rgba(0, 0, 0, 0.192) solid 2px;
     
+    }
+    .cost-btn{
+      border: none !important;
+      position: relative;
+      top: 5px;
+      background-color: transparent !important;
+      cursor: pointer !important;
+    }
+    .cost-card{
+      border-radius: 20px;
+      margin: 100px  0px 100px 100px !important;
+    }
+
+    .cost-card2{
+      border-radius: 20px;
+      padding-top: 15px;
+      margin: 50px  100px 50px 0px !important;
+    }
+    .cost-bg{
+      position: relative;
+      top: 0;
+    } 
+.like{
+  color: rgb(0, 0, 0) !important;
+  position: absolute;
+  right: 30px;
+}
+.box-like{
+  margin-top: 20px;
+}
+    .bold{
+      font-weight: 700;
+      color:rgb(54,54,54);
+    }
+    .bold2{
+      font-weight: 500;
+      font-size: 15px !important;
+      color: #858585;
+      text-overflow: ellipsis !important;
+    }
+    .bold3{
+      font-weight: 500;
+      font-size: 18px !important;
+      text-transform: capitalize;
+      color: #858585;
+      margin-left: 10px;
+      text-overflow: ellipsis !important;
+    }
+    .autor{
+      width: 80px;
+    }
+    .like-numb{
+      position: absolute;
+      top: -8px;
+      right: -15px;
+    }
     .p-d{
       padding-bottom: 70px !important;
     }
@@ -30,6 +102,9 @@
       background-color: #fef2e8;
       color: #000 !important;
       border-radius: 40px !important;
+    }
+    .tit{
+      font-size: 15px !important;
     }
     
     .bg-border{
@@ -44,9 +119,36 @@
 
     
     .p-img{
-      width: 220px;
-      height: 220px;
+      width: 300px;
+      height: 300px;
       border-radius: 100%;
+  position: relative;
+      right: -100px;
+
+    }
+    .over{
+      overflow: hidden !important;
+      
+     
+    }
+    
+    .bc{
+      position: absolute;
+      top: 1300px;
+      overflow: hidden;
+      z-index: -1;
+      width: 100vw;
+      opacity: 0.8;
+
+    }
+    .costum-inp{
+      width: 500px !important;
+      border-radius: 50px !important;
+      padding-left: 20px !important;
+      margin-right: 30px !important;
+      background-color: rgba(128, 128, 128, 0.034) !important;
+
+
     }
     .m-left{
       margin-top: 10px;
