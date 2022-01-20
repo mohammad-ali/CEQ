@@ -99,10 +99,17 @@
     .p-d{
       padding-bottom: 70px !important;
     }
+    .p-ds{
+    margin:20px 50px !important;
+    }
     .bg-p2{
       background-color: #fef2e8;
       color: #000 !important;
       border-radius: 40px !important;
+    }
+
+    .cost-card-3{
+      border-radius: 20px !important;
     }
     
     .p{
